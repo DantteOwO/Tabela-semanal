@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2);
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2);
+    font-weight: normal;
+}
+
+* {box-sizing: border-box;}
+
+body {
+    background: #141414;
+    font-family: 'Netflix Sans';
+    font-weight: normal;
+    margin: 0;
+}
+
+header {background-image: linear-gradient(180deg, #080808, #00000000);}
+
+.logo {
+    width: 7em;
+    margin-left: 4%;
+}
+
+h1 {
+    width: 100%;
+    color: #fff;
+    font-size: 3.5vw;
+    font-weight: unset;
+}
+
+.perfis-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 0;
+}
+
+.div-centralizado {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 20px;
+}
+
+.lista-perfis {
+    max-width: 80%;
+}
+
+.usuario {
+    display: inline-block;
+    width: 12%;
+    margin-right: 2vw;
+}
+
+.usuario:last-child {margin-right: 0;}
+
+.usuario:hover img {outline: 2px solid white;}
+.usuario:hover p {color: white}
+
+.usuario img {width: 100%; border-radius: 4px;}
+
+.usuario p {
+    line-height: 1.2em;
+    min-height: 1.8em;
+    color: grey;
+    display: block;
+    font-size: 1.3vw;
+    margin: 0.6em 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.usuario p {
+    color: grey;
+}
+
+.botao-gerenciar {
+    display: inline-block;
+    margin: 2em 0 1em 0;
+    font-size: 1.2vw;
+    border: 1px solid grey;
+    color: grey;
+    padding: 0.5em 1.5em;
+    letter-spacing: 2px;
+    background-color: transparent;
+}
+
+.botao-gerenciar:hover a {
+    color: white;
+}
+
+.botao-gerenciar:hover {
+    border-color: white;
+}

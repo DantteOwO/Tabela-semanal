@@ -8,6 +8,7 @@
     src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2);
     font-weight: normal;
 }
+
 * {box-sizing: border-box;}
 
 body {
@@ -65,12 +66,9 @@ h1 {
     margin-right: 2vw;
 }
 
-.usuario:last-child {
-    margin-right: 0;
-}
+.usuario:last-child {margin-right: 0;}
 
 .usuario:hover img {outline: 2px solid white;}
-
 .usuario:hover p {color: white}
 
 .usuario img {width: 100%; border-radius: 4px;}
@@ -89,9 +87,7 @@ a {
     text-decoration: none;
     display: flex;
     justify-content: space-around;
-   
   }
-
 
 .usuario p {
     color: grey;

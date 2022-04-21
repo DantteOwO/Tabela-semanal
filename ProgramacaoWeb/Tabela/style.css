@@ -17,7 +17,8 @@ table {
 td {
     border: 1px solid black;
 }
-tfoot tr td{
+
+tfoot tr td {
     text-align: center;
 }
 

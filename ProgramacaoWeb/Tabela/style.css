@@ -1,0 +1,23 @@
+body { 
+     font-style:sans-serif  ;
+}
+
+thead th { 
+    border: 1px solid black;
+    background-color: #196d89;
+} 
+ 
+table {
+    background-color: #9ed9ed;
+    border-collapse: collapse;
+    margin: auto;
+    width: 30%;   
+}
+
+td {
+    border: 1px solid black;
+}
+tfoot tr td{
+    text-align: center;
+}
+

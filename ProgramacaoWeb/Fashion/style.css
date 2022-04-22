@@ -1,61 +1,43 @@
 body {
     font-family: tahoma, arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-#principal {
-    width: 1024px;
+    max-width: 1024px;
     margin: auto;
 }
 
 .header-top {
-    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 110px;
     background: #162028;
-    position: relative;
 }
 
-.logotipo {
-    margin: 5px 0 0 135px;
+nav {
+    font-size: 0;
 }
 
-.header-nav {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-}
-
-.header-nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-.header-nav li {
-    list-style: none;
+nav a {
     display: inline-block;
-    margin-right: 0 15px 0 0;
-    padding: 13px;
-}
-
-.header-nav a {
+    padding: 20px;
     color: #425564;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 5px;
-    transition: color .3s linear;
+    transition: color 0.3s linear;
 }
 
-.header-nav a:hover {
+nav a:hover {
     color: wheat;
+}
 
+.img-banner {
+    width: 100%;
 }
 
 .portfolio {
     padding: 50px 100px;
     text-align: center;
-
 }
 
 .portfolio-h1 {
@@ -79,7 +61,6 @@ body {
     width: 32%;
     float: left;
     text-align: center;
-
 }
 
 .gallery-title {
@@ -102,7 +83,6 @@ body {
     text-transform: uppercase;
     font-size: 50px;
     font-weight: normal;
-
 }
 
 .about p {

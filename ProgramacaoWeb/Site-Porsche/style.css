@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: block;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.cabecario ul div {
+    display: inline-block;
+}
+
+.pontos {
+    text-align: center;
+    display: block;
+    font-size: 0;
+    margin: 20px 0;
+}
+
+.pontos li {
+    border-radius: 50%;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #c8cacb;
+    margin-left: 0 10px;
+}
+
+/* .pontos li pecisa ser um padding por causa da área de clique */

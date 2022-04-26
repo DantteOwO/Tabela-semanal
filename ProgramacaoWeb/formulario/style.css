@@ -1,0 +1,32 @@
+.formulario{
+  display: block;
+  background-color:#ddd;
+  width: 200px;
+  
+ 
+}
+.formlogin {
+    width: 250px;
+    margin: 50px auto 0;
+}
+.formlogin fieldset{
+    background-color:#ccc;
+}
+.user,.pass, .btn {
+   display: block; 
+   width: 100%;
+   box-sizing: border-box;
+}
+.user:focus {
+    background: #ddd;
+
+}
+.pass:focus{
+    background: #ddd;
+}
+.btn{
+    margin-top: 10px;
+    }
+.user {
+    margin-bottom: 10px;
+}

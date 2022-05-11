@@ -9,8 +9,9 @@ a{
     text-decoration: none;
     border-bottom: 1px dotted ;
     color: #49bf9d;
-
+    
 }
+   
 img{
     max-width:100% ;
 }
@@ -168,6 +169,7 @@ textarea{
 .col-2{  
  width: 49%;
  float: left;
+ display: block;
 }
 .col-2:first-child{
     margin-right: 1%;

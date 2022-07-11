@@ -1,51 +1,40 @@
 body{
     font-family: 'Open Sans', arial, helvetica, sans-serif;
-    color: #666;
+    color: wheat;
     line-height: 1.7;
+    background:#011d25 ;
+    text-align: center;
 }
+.card {
+    background-color: #033a49;
+}
+
 
 a{
     transition: color .2s linear, border .2s linear;
     text-decoration: none;
     border-bottom: 1px dotted;
-    color: #49bf9d;
+    color:rgb(114, 113, 113);
 }
-a:hover{
-    border-bottom-color: transparent;
-}
+
 
 p{
     margin: 0 0 2em;
 }
-
-img{
+.perfil {
+    max-width: 70%;
+}
+img {
     max-width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: #787878;
+    color: #dadada;
     font-weight: normal;
     margin: 1em 0;
 }
 
-h1{
-    font-size: 36px;
-}
-h2{
-    font-size: 30px;
-}
-h3{
-    font-size: 26px;
-}
-h4{
-    font-size: 22px;
-}
-h5{
-    font-size: 18px;
-}
-h6{
-    font-size: 15px;
-}
+
 
 sub, sup{
     font-size: 12px;
@@ -112,7 +101,7 @@ li{
 .ul-icons li{
     display: inline-block;
     font-size: 2em;
-    color: #49bf9d;
+    color: #011d25;
 }
 
 input, label, textarea, select{
@@ -139,10 +128,10 @@ textarea{
 }
 
 .button-default{
-    background-color: #49bf9d;
-    border: 3px solid #49bf9d;
+    background-color: #011d25;
+    border: 3px solid #011d25;
     color: white;
-    padding: .75em 1.5em;
+    padding: .75em 5.5em;
     border-radius: 5px;
     font-size: .8em;
     display: inline-block;
@@ -151,18 +140,18 @@ textarea{
     cursor: pointer;
 }
 .button-default:hover{
-    background-color: #5ddeb9;
+    background-color: wheat;
     border-color: transparent;
 }
 .button-default-stroke{
-    background-color: white;
-    border-color: #efefef;
+    background-color: #0c4655;
+    border-color: wheat;
     color: inherit;
 }
 .button-default-stroke:hover{
-    color: #49bf9d;
-    border-color: #49bf9d;
-    background-color: white; 
+    color: wheat;
+    border-color: wheat;
+    background-color: #011d25; 
 }
 
 .button-default-small{
@@ -219,7 +208,7 @@ textarea{
     width: 35%;
     padding: 124px 54px 72px;
     box-sizing: border-box;
-    background-image: url(../images/overlay.png), url(../images/bg.jpg);
+    background-image: url(../images/overlay.png), url(../images/photo.avif);
     background-position: left top;
     background-size: auto, cover;
     text-align: right;
@@ -230,7 +219,7 @@ textarea{
     line-height: 1.5;
     color: white;
     font-weight: normal;
-    color: rgba(255, 255, 255, .5);
+    color: wheat;
 }
 .main-header-title strong{
     color: white;
@@ -238,9 +227,6 @@ textarea{
 }
 .main-header-link{
     color: inherit;
-}
-.main-header-link:hover{
-    color: #49bf9d;
 }
 
 .main-content{
@@ -253,6 +239,12 @@ textarea{
 .main-header-link img{
     border-radius: 50%;
     overflow: hidden;
+}
+.recent-works-card-title:hover{
+    color: wheat;
+}
+.recent-works-card img:hover{
+    color: wheat;
 }
 
 .recent-works-card img{
@@ -284,7 +276,7 @@ textarea{
     text-decoration: none;
 }
 .main-footer a:hover{
-    color: #49bf9d;   
+    color: wheat;   
 }
 .main-footer .ul-icons a{
   font-size: .75em;   
@@ -340,4 +332,13 @@ textarea{
     margin-left: 2%;
 }
 
+.maps {
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+}
+
+.maps iframe {
+    width: 100%;
+}
 

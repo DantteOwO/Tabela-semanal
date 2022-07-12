@@ -216,6 +216,13 @@ footer a:hover {
         margin: 40px auto;
     }
 
+    /* Main */
+
+    main {
+        width: auto;
+        float: none;
+    }
+
     /* Google maps*/
     .maps {
         width: 100%;

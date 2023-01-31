@@ -1,0 +1,30 @@
+.principal{
+          text-align: center;
+          color: brown;
+          background-color:rgb(219, 103, 103);
+    
+}
+
+p{
+   text-align: left;
+}
+
+h2{
+   text-align: left;
+}
+
+.b{
+   text-align: left;
+   background-color: rgb(228, 144, 144);
+   color: brown;
+   border-bottom: solid red;
+  
+}
+hr{
+   color: brown;
+   
+}
+
+body{
+    background-color: rgb(202, 241, 241);
+}

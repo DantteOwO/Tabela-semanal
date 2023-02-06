@@ -28,3 +28,11 @@ hr{
 body{
     background-color: rgb(202, 241, 241);
 }
+
+.name
+{ 
+   color: black;
+   width: 100px;
+   height: 100px;
+   
+}

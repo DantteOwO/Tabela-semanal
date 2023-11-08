@@ -6,7 +6,7 @@ body {
     font-family: 'Open Sans', arial, helvetica, sans-serif;
     color: wheat;
     line-height: 1.7;
-    background:#011d25 ;
+    background:#6d9fac ;
 }
 
 a {
@@ -23,7 +23,7 @@ p {
 /* Cards */
 
 .card {
-    background-color: #012f3b;
+    background-color: #6b99a3;
     width: 18rem;
     margin-bottom: 5%;
     margin-left: 30px;
@@ -56,7 +56,7 @@ p {
     border-color: transparent;
 }
 .button-default-stroke{
-    background-color: #0c4655;
+    background-color: #2b6979;
     border-color: wheat;
     color: inherit;
 }
@@ -91,7 +91,7 @@ header {
     width: 35%;
     padding: 124px 54px 72px;
     box-sizing: border-box;
-    background-image: url(images/overlay.png), url(images/photo.avif);
+    background-image: url(images/overlay.png), url(images/photo.avif.jpg);
     background-position: left top;
     background-size: auto, cover;
     text-align: right;

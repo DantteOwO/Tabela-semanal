@@ -63,7 +63,7 @@ p {
 .button-default-stroke:hover{
     color: wheat;
     border-color: wheat;
-    background-color: #011d25; 
+    background-color: #033a49; 
 }
 
 .button-default-small{
@@ -91,7 +91,7 @@ header {
     width: 35%;
     padding: 124px 54px 72px;
     box-sizing: border-box;
-    background-image: url(images/overlay.png), url(images/photo.avif.jpg);
+    background-image: url(images/photo.avif.jpg), url(images/photo.avif.jpg);
     background-position: left top;
     background-size: auto, cover;
     text-align: right;
@@ -192,7 +192,7 @@ footer a:hover {
 
 /* Responsividade */
 
-@media only screen and (max-device-width: 900px) {
+@media only screen and (max-device-width: 1000px) {
     
     header {
         position: static;
@@ -202,7 +202,7 @@ footer a:hover {
         width: 100%;
         padding: 60px;
         box-sizing: border-box;
-        background-image: url(images/overlay.png), url(images/photo2.jpg);
+        background-image: url(images/photo.avif.jpg), url(images/photo.avif.jpg);
         background-position:  top;
         text-align: right;
 
@@ -235,8 +235,8 @@ footer a:hover {
 
     /* Cards */
     .card {
-        background-color: #012f3b;
-        width: 18rem;
+    background-color: #638c96;
+        width: 22rem;
         margin-bottom: 3%;
         margin-left:3%;
         margin-top:3%;

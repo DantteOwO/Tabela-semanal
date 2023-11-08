@@ -202,7 +202,7 @@ footer a:hover {
         width: 100%;
         padding: 60px;
         box-sizing: border-box;
-        background-image: url(images/), url(images/photo.avif.jpg);
+        background-image: url(images/photo.avif.jpg), url(images/photo.avif.jpg);
         background-position:  top;
         text-align: right;
 

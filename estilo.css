@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Open Sans', arial, helvetica, sans-serif;
-    color: wheat;
+    color: rgb(248, 248, 248);
     line-height: 1.7;
     background:#6d9fac ;
 }
@@ -31,7 +31,7 @@ p {
 }
 
 .btn btn-primary:hover{
-    color: wheat;
+    color: rgb(24, 118, 155);
 }
 
 .recent-works-card img {
@@ -57,7 +57,7 @@ p {
 }
 .button-default-stroke{
     background-color: #2b6979;
-    border-color: wheat;
+    border-color: rgb(248, 248, 248);
     color: inherit;
 }
 .button-default-stroke:hover{
@@ -91,7 +91,7 @@ header {
     width: 35%;
     padding: 124px 54px 72px;
     box-sizing: border-box;
-    background-image: url(images/photo.avif.jpg), url(images/photo.avif.jpg);
+    background-image: url(/images/overlay.png), url(images/photo.avif.jpg);
     background-position: left top;
     background-size: auto, cover;
     text-align: right;
@@ -202,7 +202,7 @@ footer a:hover {
         width: 100%;
         padding: 60px;
         box-sizing: border-box;
-        background-image: url(images/photo.avif.jpg), url(images/photo.avif.jpg);
+        background-image: url(images/overlay.png), url(images/photo.avif.jpg);
         background-position:  top;
         text-align: right;
 
@@ -274,5 +274,7 @@ footer a:hover {
 .ddd{
     background-color: #2b6979;
     width: 100%;
+    padding-left: 37%;
+    padding-top:50px;
     
 }

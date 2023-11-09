@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6{
 
 .div-slider{
 width: auto;
-height: 400px;
+height: auto;
 text-align: center;
 }
 .slides-front {
@@ -275,8 +275,8 @@ text-align: center;
 .slide {
     top: 0;
     opacity: 0;
-    width: 980px;
-    height: 370px;
+    width: 900x;
+    height: 300px;
     display: block;
     position: absolute;
 

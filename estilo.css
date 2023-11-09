@@ -27,7 +27,8 @@ p {
     width: 18rem;
     margin-bottom: 5%;
     margin-left: 30px;
-    display: inline-block;
+    display: flex ;
+    
 }
 
 .btn btn-primary:hover{

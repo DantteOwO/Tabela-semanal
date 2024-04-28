@@ -1,125 +1,23 @@
-<!doctype html>
-<html lang="pt-BR">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Tabelinha</title>
     <meta charset="UTF-8">
-    <meta name="author" content="Adalberto camargo">
-    <meta name="description" content="descriçao">
-    <meta name="keywords" content="html5, tecnologia">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="estilo.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
+    <title>Flappy Bird Game</title>
+    <link rel="stylesheet" href="/estilo.css">
+    <script src="/scripts.js" defer></script>
 </head>
-
 <body>
-
-    <header>
-        <a href="/images/overlay.png" class="main-header-link imagem-link">
-            <img class="perfil" src="images/fulls/semfoto.png" alt="texto qualquer">
-        </a>
-        <h1 class="main-header-title">
-            <br>
-            <strong>Nome do usuario</strong>
-            <hrbe>
-            Bem Vindo a sua tabelinha da semana<br>
-        </h1>
-    </header>
-
-    <div class="ddd">
-        <h3>Tabela da semana </h3>
-        <br>
-
-        <h5>Selecione o dia da semana</h5><br>
-        </div>
-    <main>
-       
-
-        <div class="card">
-            <img class="card-img-top" src="images/dias/segunda.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Segunda - Feira</h5>
-                <a href="autis/segunda.html" title="Veja mais"
-                    class="button-default button-default-stroke button-default-big">Veja mais</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <img class="card-img-top" src="images/dias/terça.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Terça - Feira</h5>
-                <a href="autis/terça.html" title="Veja mais"
-                    class="button-default button-default-stroke button-default-big">Veja mais</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <img class="card-img-top" src="images/dias/quarta.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Quarta - Feira</h5>
-                <a href="autis/quarta.html" title="Veja mais"
-                    class="button-default button-default-stroke button-default-big">Veja mais</a>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="images/dias/quinta.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Quinta - Feira</h5>
-                <a href="autis/quinta.html" title="Veja mais"
-                    class="button-default button-default-stroke button-default-big">Veja mais</a>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="images/dias/sexta.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Sexta - Feira</h5>
-                <a href="autis/sexta.html" title="Veja mais"
-                    class="button-default button-default-stroke button-default-big">Veja mais</a>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="images/dias/sabado.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title"> Sabado </h5>
-                <a href="autis/sabado.html" title="Veja mais"
-                    class="button-default button-default-stroke button-default-big">Veja mais</a>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="images/dias/domingo.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Domingo</h5>
-                <a href="autis/domingo.html" title="Veja mais"
-                    class="button-default button-default-stroke button-default-big">Veja mais</a>
-            </div>
-
-            
-        </div>
-        <div class="contact">
-           
-        </div>
-      
-    </main>
-
-    <footer>
-        <a href="ProgramacaoWeb/Site-Range/index.html" title="Veja mais"
-                    class="button-default button-default-stroke button-default-big">Para Pais</a>
-                    <br><br><br>
-
-                    <br>
-                    <hr>
-                    
-       
-        <ul class="copyright">
-            <li>© Adalberto Camargo</li>
-            <li>2023</li>
-        </ul>
-    </footer>
-
+    <div class="background"></div>
+    <img src="images/Bird.png" alt="bird-img" class="bird" id="bird-1">
+    <div class="message">
+        Enter To Start Game <p><span style="color: red;">&uarr;</span> ArrowUp to Control</p>
+    </div>
+    <div class="score">
+        <span class="score_title"></span>
+        <span class="score_val"></span>
+    </div>
 </body>
-
 </html>
